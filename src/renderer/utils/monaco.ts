@@ -52,7 +52,7 @@ const Monaco = {
       verticalScrollbarSize: 12
     },
     scrollBeyondLastColumn: 0,
-    scrollBeyondLastLine: false,
+    scrollBeyondLastLine: true,
     snippetSuggestions: 'none',
     wordWrap: Settings.get ( 'monaco.editorOptions.wordWrap' ),
     wordWrapColumn: 1000000,
